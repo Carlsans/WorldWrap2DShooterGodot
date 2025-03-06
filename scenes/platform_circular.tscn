@@ -8,16 +8,16 @@
 size = Vector2(7200, 7200)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6qvaw"]
-size = Vector2(11691, 2746)
+size = Vector2(13233.5, 2746)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fn1om"]
-size = Vector2(3175, 10440)
+size = Vector2(3431.25, 15417.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qnwv5"]
 size = Vector2(5200, 5200)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_33r1m"]
-size = Vector2(9200, 9200)
+size = Vector2(12000, 12000)
 
 [node name="PlatformCircular" type="Node2D"]
 
@@ -44,19 +44,19 @@ collision_mask = 2
 script = ExtResource("3_hybvf")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="WrapBoundaryGarbage"]
-position = Vector2(84, 6144)
+position = Vector2(186, 7436)
 shape = SubResource("RectangleShape2D_6qvaw")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="WrapBoundaryGarbage"]
-position = Vector2(107, -6197)
+position = Vector2(68.25, -7498)
 shape = SubResource("RectangleShape2D_6qvaw")
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="WrapBoundaryGarbage"]
-position = Vector2(-6420, -188)
+position = Vector2(-7890.25, 146.5)
 shape = SubResource("RectangleShape2D_fn1om")
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="WrapBoundaryGarbage"]
-position = Vector2(6428, -198)
+position = Vector2(7838.38, -647.25)
 shape = SubResource("RectangleShape2D_fn1om")
 
 [node name="InnerArea" type="Area2D" parent="."]
